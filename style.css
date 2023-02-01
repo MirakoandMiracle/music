@@ -1,0 +1,100 @@
+body{
+    width: 100vw;
+  
+  
+  background-repeat: no-repeat; 
+  background-image: url("https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8QU5JTUV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: 100%;
+}
+
+
+
+.autoCompleteInput{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+.resultContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+.songctn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    padding: 8px;
+    align-items: center;
+    background-color:peachpuff;
+    height: 50px;
+}
+
+.picture{
+    
+    height: 90%;
+    
+}
+.fi
+{   display: none;
+    padding: 30px;
+    margin: 0 auto;
+    width: 40%;
+    
+    
+}
+
+.ssimg{
+    width: 80%;
+    height: 200px;
+}
+
+.ssc{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#F1E6DE;
+    padding: 30px;
+}
+h5{
+    padding: 10px;
+}
+.musicPlayer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pauseButton{
+    display: none
+  }
+  
+  .currentAndTotleTime {
+    color:black;
+    padding: 30px;
+    
+  }
+  
+  #progressBar {
+    width: 300px;
+    height: 5px;
+    background-color: grey;
+    margin-top: 10px;
+  }
+  #currentProgress {
+    width: 0px;
+    height: 100%;
+    background-color: palevioletred;
+  }
+  
+  .controls {
+    font-size: 30px;
+    color:black;
+    margin: 20px 40px;
+    cursor: pointer;
+  }
+  .bty{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
